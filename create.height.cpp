@@ -32,7 +32,7 @@ int main(){
     while(!q.empty()){
         Node* temp=q.front();
         q.pop();
-        int data;
+        int data; 
         cout<<"Enter left node of "<<temp->data<<" : ";
         cin>>data;
         if(data!=-1){
