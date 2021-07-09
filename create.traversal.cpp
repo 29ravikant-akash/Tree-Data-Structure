@@ -29,7 +29,7 @@ void postorder(Node* node){
         cout<<node->data<<" ";
     }
 }
-int main(){
+int main(){ 
     queue<Node*> q;
     Node* newnode;
     Node* root=new Node;
