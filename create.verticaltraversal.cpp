@@ -31,7 +31,7 @@ int main()
         // cout << "Enter left node of " << temp->data << " : ";
         // cin >> data;
         data=arr[j];
-        j++;
+        j++; 
         if (data != -1)
         {
             newnode = new Node;
