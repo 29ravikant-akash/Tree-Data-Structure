@@ -58,7 +58,8 @@ int main()
     //---------------vertical order traversal--------------------
     cout<<"vertical order traversal: "<<endl;
     int hd=0;
-    map<int, vector<int> > m;
+//     map<int, vector<int> > m;
+    unordered_map<int, vector<int>> m;
     queue<pair<Node*,int>> que;
     que.push(make_pair(root,hd));
     while(!que.empty()){
@@ -73,10 +74,25 @@ int main()
         que.push(make_pair(node->right, hd + 1));       
         
     }
-    map<int, vector<int> >::iterator it;
+//     map<int, vector<int> >::iterator it;
+//     for (it = m.begin(); it != m.end(); it++) {
+//         for (int i = 0; i < it->second.size(); ++i)
+//             cout << it->second[i] << " ";
+//         cout << endl;
+//     }
+    unordered_map<int, vector<int>>::iterator it;
+    int max=0;
+    int min=INT_MAX;
     for (it = m.begin(); it != m.end(); it++) {
-        for (int i = 0; i < it->second.size(); ++i)
-            cout << it->second[i] << " ";
+        if(it->first>max)
+        max=it->first;
+        if(it->first<min)
+        min=it->first;
+    }
+    for(int i=min;i<=max;i++){
+        cout<<i<<" -> ";
+        for (int j=0;j<m[i].size();j++)
+        cout << m[i][j] << " " ;
         cout << endl;
     }
     //=========================The End===========================
