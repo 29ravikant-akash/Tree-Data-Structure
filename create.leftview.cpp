@@ -30,7 +30,7 @@ int main(){
             newnode->left=newnode->right=NULL;
             temp->left=newnode;
             q.push(newnode);
-        }
+        } 
         cout<<"Enter right node "<<temp->data<<" : ";
         cin>>data;
         if(data!=-1){
