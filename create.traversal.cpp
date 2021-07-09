@@ -61,8 +61,9 @@ int main(){
             q.push(newnode);
         }
     }
-
+    
     cout<<"end of insertion"<<endl;
+    
     // //------------------levelorder traversal-------------------
     cout<<"levelorder traversal: ";
     q.push(root);
