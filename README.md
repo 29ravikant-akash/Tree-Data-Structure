@@ -13,3 +13,5 @@
 ***12. All root to leaf path*** <br>
 ***13. Root to node path***
   14. Diameter
+  15. Node is left or right
+  16. Mirror tree
