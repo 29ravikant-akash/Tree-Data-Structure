@@ -10,6 +10,6 @@
   9.  Is Identical binary trees
   10. Sum tree
   11. Is cousins <br>
-***12. All root to leaf path***
+***12. All root to leaf path*** <br>
 ***13. Root to node path***
   14. Diameter
