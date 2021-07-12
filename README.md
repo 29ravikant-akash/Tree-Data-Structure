@@ -16,3 +16,4 @@
   15. Node is left or right
   16. Mirror tree
   17. Delete
+  18. Diagonal sum
