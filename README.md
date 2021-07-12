@@ -1,7 +1,7 @@
 # Tree-Data-Structure
   1. Creation
-  2. Traversal(level-order + pre-order + in-order + post-order) <br>
-***3. Height***
+  2. Traversal(level-order + pre-order + in-order + post-order)
+  3. Height
   4. Left view
   5. Right view <br> 
 ***6. Vertical order traversal***
@@ -11,3 +11,5 @@
   10. Sum tree
   11. Is cousins <br>
 ***12. All root to leaf path***
+***13. Root to node path***
+  14. Diameter
