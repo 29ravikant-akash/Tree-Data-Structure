@@ -15,3 +15,4 @@
   14. Diameter
   15. Node is left or right
   16. Mirror tree
+  17. Delete
